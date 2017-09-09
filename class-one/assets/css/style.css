@@ -44,22 +44,22 @@ section.section-padding{
     position: relative;
 }
 .section-title h2::before {
-    background: #fdaf67;
-    bottom: -8px;
-    content: "";
-    height: 3px;
-    left: 530px;
-    position: absolute;
-    width: 74px;
+	background: #fdaf67;
+	bottom: -8px;
+	content: "";
+	height: 3px;
+	left: 45%;
+	position: absolute;
+	width: 90px;
 }
 .section-title h2::after {
-    background: #000 none repeat scroll 0 0;
-    bottom: -8px;
-    content: "";
-    height: 3px;
-    left: 552px;
-    position: absolute;
-    width: 30px;
+	background: #000 none repeat scroll 0 0;
+	bottom: -8px;
+	content: "";
+	height: 3px;
+	left: 47%;
+	position: absolute;
+	width: 36px;
 }
 .section-title {
   color: #565656;
@@ -93,7 +93,7 @@ section.section-padding{
     padding-right: 5px;
 }
 .news-meta span {
-	padding-left: 20px;
+	padding-left: 11px;
 }
 .news-meta {
     font-size: 14px;

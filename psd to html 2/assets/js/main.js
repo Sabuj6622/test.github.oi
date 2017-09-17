@@ -21,14 +21,10 @@
         }
     }
 });
-
-
-        
-
-
     });
 
-
+$('.product-list').masonry({
+});
     jQuery(window).load(function(){
 
         

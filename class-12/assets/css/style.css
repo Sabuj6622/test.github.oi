@@ -225,24 +225,23 @@ html, body {
 
 /* masonery css */
 
+.product-list {
+    margin-left: -2%;
+    overflow: hidden;
+}
 .products-area {
     padding-top: 100px;
 }
 .single-product-item {
     background-color: #f6f0ef;
-    background-position-x: center;
-    background-position-y: bottom;
+	background-position:center bottom;
     background-repeat: no-repeat;
     float: left;
     height: 300px;
     margin-bottom: 20px;
     margin-left: 2%;
     width: 18%;
-	position:relative;
-}
-.product-list {
-    margin-left: -2%;
-    overflow: hidden;
+	cursor:pointer;
 }
 .single-product-item:nth-child(2) {
     height: 620px;
@@ -266,6 +265,7 @@ html, body {
     margin-right: 5px;
     margin-top: 10px;
     padding-left: 2px;
+	transition:.5s;
 }
 .single-product-item:hover .product-icon{
 	opacity:1;
@@ -297,6 +297,10 @@ html, body {
   opacity:0;
   transition:.5s;
 }
+.single-product-item:hover .product-hover > a{
+	margin-top: -40px;
+	opacity:1;
+}
 .product-price {
     color: #ec729f;
     float: right;
@@ -304,14 +308,41 @@ html, body {
     font-weight: 700;
 }
 .product-bottom-ifno {
-    background-color: #fff;
-    bottom: 0;
-    font-family: "Karla";
-    font-weight: 700;
-    left: 0;
+  background-color: #fff;
+  bottom: 0;
+  font-family: "Karla";
+  font-weight: 700;
+  left: 0;
+  padding-top: 10px;
+  position: absolute;
+  width: 100%;
+  transition:.5s;
+}
+
+.product-hover {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  transition:.5s;
+}
+.product-hover::after {
+    background-color: #2aa353;
+    content: "";
+    height: 100%;
+    opacity: 0.7;
     position: absolute;
     width: 100%;
+    z-index: -1;
 }
+
+.single-product-item:hover .product-hover {
+    opacity: 1;
+}
+
 .product-bottom-ifno h4 {
   color: #5b3f61;
   font-family: karla;
@@ -320,7 +351,7 @@ html, body {
   margin-top: -1px;
 }
 .product-bottom-ifno p {
-  line-height: 13px;
+  margin:0;
 }
 .product-color-box span {
     border:1px solid #000;
@@ -356,43 +387,5 @@ html, body {
     border-right-color: #99e4e7;
     border-top-color: #99e4e7;
 }
-
-
-.product-hover {
-  height: 100%;
-  left: 0;
-  opacity: 0;
-  position: relative;
-  transition-delay: 0s;
-  transition-duration: 0.3s;
-  transition-property: all;
-  transition-timing-function: ease;
-  width: 100%;
-  z-index: 1;
-}
-.product-hover::after {
-    background-color: #35c773;
-    bottom: 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    opacity: 0.5;
-    position: absolute;
-    width: 100%;
-}
-
-.single-product-item:hover .product-hover{
-	opacity:.5;
-}
-.single-product-item:hover .product-hover> a {
-    opacity: 1;
-	margin-top: -40px;
-	z-index:999;
-}
-
-
-
-
-
 
 

@@ -79,7 +79,8 @@ a:hover { text-decoration: none }
     position: fixed;
     width: 300px;
 }
-
+.off-canvas-menu li{transition:.5s;}
+.off-canvas-menu ul li:hover{padding-left:20px;}
 .off-canvas-menu {
     background-attachment: scroll;
     background-clip: border-box;

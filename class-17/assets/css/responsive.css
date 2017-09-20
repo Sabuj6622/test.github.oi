@@ -86,6 +86,8 @@ display: none;
 }
 .year-text {
   font-size: 40px;
+  right: 16%;
+  top: 14%;
 }
 .promo-title h1,.promo-title h2 {
   font-size: 17px;

@@ -118,6 +118,7 @@ a:hover { text-decoration: none;color:#337ab7; }
   top: 0;
   border:none;
   padding:10px;
+  background-color:none;
 }
 
 .blog-load-wrapper {

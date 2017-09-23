@@ -17,6 +17,9 @@
 	  text-align:center;
 	  font-size: 16px;
   }
+  .header-top-area i.fa {
+    padding-left: 10px;
+}
 .header-top-area .text-right {
   font-size: 10px;
   text-align: center;

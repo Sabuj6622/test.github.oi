@@ -55,11 +55,9 @@
   padding-right: 15px;
   padding-top: 8px;
 }
+.footer-area ul,.text-right{text-align:center;}
 .footer-area li {
   margin: 10px;
-}
-.footer-area.text-right{
-	text-align:center;
 }
 .footer-area a i.fa {
   margin:10px;

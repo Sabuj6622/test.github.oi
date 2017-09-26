@@ -48,8 +48,8 @@
 }
 .big-bordered-img::before {
   height: 330px;
-  right: 33px;
-  transform: rotate(14deg);
+  right: 32px;
+  transform: rotate(15deg);
 }
 .big-bordered-img img {
   height: 330px;
@@ -58,10 +58,11 @@
   margin-top: 26px;
 }
 .bordered-img::after {
-  height: 216px;
+  height: 245px;
 }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
+
 
 }

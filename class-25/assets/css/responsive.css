@@ -48,8 +48,8 @@
 }
 .big-bordered-img::before {
   height: 330px;
-  right: 32px;
-  transform: rotate(15deg);
+  right: 31px;
+  transform: rotate(17deg);
 }
 .big-bordered-img img {
   height: 330px;

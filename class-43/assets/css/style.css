@@ -236,6 +236,7 @@ body {
   background: #fff;
   float: left;
   margin-top: 6px;
+  position:relative;
 }
 .bordered-area i.fa {
   float: left;

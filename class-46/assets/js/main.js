@@ -7,7 +7,7 @@
 		loop:true,
 		dots:true,
 		nav:false,
-		autoplay:false,
+		autoplay:true,
 	     smartSpeed:3000,
          responsive:{
         0:{

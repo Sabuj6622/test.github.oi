@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="assets/images/">
+    <title>100+ section</title>
+
+    <!-- bootstrap css-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font-awesome css-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- main css-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- responsive css-->
+    <link href="assets/css/responsive.css" rel="stylesheet">
+        
+		
+		
+	<!--[if lt IE 9]>
+	<script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    </head>
+    <body>
+		<!-- AIzaSyCB2Xi5iD2-UTe5cnSfwvNGJ4ewmDQQzxA-->
+      <div class="section-padding">
+          <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                    <div id="googleMap" style="width:100%;height:400px;">
+                      <script>
+                           function myMap() {
+                           var mapProp= {
+                            center:new google.maps.LatLng(51.508742,-0.120850),
+                            zoom:5,
+                            };
+                            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                            }
+                        </script> 
+                     </div>                                               
+                                                         
+                </div>
+          </div>
+      </div>
+
+
+      <!--   jquery min js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCB2Xi5iD2-UTe5cnSfwvNGJ4ewmDQQzxA&callback=myMap"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <!--   bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!--   main js -->
+    <script src="assets/js/main.js"></script>
+    </body>
+</html>

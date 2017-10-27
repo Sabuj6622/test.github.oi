@@ -40,15 +40,17 @@
 
 
         <script>
-         {
-                  var location = {lat: 22.7671527, lng: 91.5419904};
-                 var myCenter = new google.maps.LatLng(22.7671527,91.5419904);
-                  var mapCanvas = document.getElementById("map");
-                  var mapOptions = {center: myCenter, zoom: 5};
-                  var map = new google.maps.Map(mapCanvas, mapOptions);
-                  var marker = new google.maps.Marker({position:myCenter});
-                  marker.setMap(map);
-         }
+            function myMap() {
+                var location = {lat: 22.7671527, lng: 91.5419904};
+                var mapProp= {
+                    center:new google.maps.LatLng(22.7671527,91.5419904),
+                    zoom:13,
+                    scrollwheel: false
+                };
+                
+                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+
         </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoDEM1Kh39_70lbFipALV8F9YkP9Pvn4M&callback=myMap" async defer></script>
 

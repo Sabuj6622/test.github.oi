@@ -46,13 +46,16 @@
                     center:new google.maps.LatLng(22.7671527,91.5419904),
                     zoom:13,
                     scrollwheel: false,
-                    styles: [
-                          {
-                            featureType: 'road',
-                          elementType: 'geometry',
-                          stylers: [{color: 'red'}]
+                     styles: [
+                        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+                        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+                        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+                        {
+                          featureType: 'administrative.locality',
+                          elementType: 'labels.text.fill',
+                          stylers: [{color: '#d59563'}]
                         }
-                        ],
+                       ],
                 };
                 
                 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);

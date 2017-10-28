@@ -40,7 +40,7 @@
           {"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}
         ],
         {name: "Shades of Grey"}
-
+       );
     });
 
 

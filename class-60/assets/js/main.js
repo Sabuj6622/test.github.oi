@@ -19,11 +19,12 @@
           zoom: 13,
           scrollwheel: false,
           mapTypeId : google.maps.MapTypeId.ROADMAP
-        });
-       .marker({
+          .marker({
         position: center,
         icon: 'http://maps.google.com/mapfiles/marker_green.png'
       });
+        });
+       
 
     });
 

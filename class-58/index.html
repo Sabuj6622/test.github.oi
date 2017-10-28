@@ -61,11 +61,26 @@
                               stylers: [{color: '#ffffff'}]
                             },
                             {
-              featureType: 'road.highway',
-              elementType: 'geometry',
-              stylers: [{color: 'blue'}]
-            },           
-                     ],
+                              featureType: 'road.highway',
+                              elementType: 'geometry',
+                              stylers: [{color: 'blue'}]
+                            }, 
+                                  {
+                              featureType: 'poi',
+                              elementType: 'labels.text.fill',
+                              stylers: [{color: 'yellow'}]
+                            },
+                            {
+                              featureType: 'poi.park',
+                              elementType: 'geometry',
+                              stylers: [{color: 'red'}]
+                            },
+                            {
+                              featureType: 'poi.park',
+                              elementType: 'labels.text.fill',
+                              stylers: [{color: '#ddd'}]
+                            },          
+                        ],
                 };
                 
                 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);

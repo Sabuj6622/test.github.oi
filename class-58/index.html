@@ -55,8 +55,13 @@
                           elementType: 'labels.text.fill',
                           stylers: [{color: '#d59563'}]
                         },
-                         
-                       ],
+                          {
+                              featureType: 'road',
+                              elementType: 'geometry',
+                              stylers: [{color: '#ffffff'}]
+                            },
+                                      
+                     ],
                 };
                 
                 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);

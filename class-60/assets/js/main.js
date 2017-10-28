@@ -17,6 +17,7 @@
       .gmap3({
         center:[22.7671527, 91.5419904],
         zoom:12,
+        scrollwheel:false,
         mapTypeId: "shadeOfGrey", // to select it directly
         mapTypeControlOptions: {
           mapTypeIds: [google.maps.MapTypeId.ROADMAP, "shadeOfGrey"]

@@ -32,69 +32,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">                    
-                        <div id="googleMap" style="height: 500px; width: 100%"></div>
+                        <div id="map" style="height: 500px; width: 100%"></div>
                     </div>
                 </div>
             </div>
         </div>
 
 
-        <script>
-            function myMap() {
-                var location = {lat: 22.7671527, lng: 91.5419904};
-                var mapProp= {
-                    center:new google.maps.LatLng(22.7671527,91.5419904),
-                    zoom:13,
-                    scrollwheel: false,
-                     styles: [
-                        {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
-                        {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-                        {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
-                        {
-                          featureType: 'administrative.locality',
-                          elementType: 'labels.text.fill',
-                          stylers: [{color: '#d59563'}]
-                        },
-                          {
-                              featureType: 'road',
-                              elementType: 'geometry',
-                              stylers: [{color: '#ffffff'}]
-                            },
-                            {
-                              featureType: 'road.highway',
-                              elementType: 'geometry',
-                              stylers: [{color: 'blue'}]
-                            }, 
-                                  {
-                              featureType: 'poi',
-                              elementType: 'labels.text.fill',
-                              stylers: [{color: 'yellow'}]
-                            },
-                            {
-                              featureType: 'poi.park',
-                              elementType: 'geometry',
-                              stylers: [{color: 'red'}]
-                            },
-                            {
-                              featureType: 'poi.park',
-                              elementType: 'labels.text.fill',
-                              stylers: [{color: '#ddd'}]
-                            },          
-                        ],
-                };
-                
-                var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-            }
+        
 
-        </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoDEM1Kh39_70lbFipALV8F9YkP9Pvn4M&callback=myMap" async defer></script>
 
       <!--   jquery min js -->
     
     <script src="assets/js/jquery.min.js"></script>
     <!--   bootstrap js -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/gmap3.min.js"></script>
     <!--   main js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoDEM1Kh39_70lbFipALV8F9YkP9Pvn4M"></script>
     <script src="assets/js/main.js"></script>
     </body>
 </html>

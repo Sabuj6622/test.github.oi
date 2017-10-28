@@ -17,6 +17,7 @@
         $('#map').gmap3({
           address:"Mirsarai, Bangladesh",
           zoom: 13,
+          scrollWhell:false,
           mapTypeId : google.maps.MapTypeId.ROADMAP
         });
         

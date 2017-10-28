@@ -14,7 +14,7 @@
 
         
 
-        $('#map').gmpa3({
+        $('#map').gmap3({
           address:"Mirsarai,Bangladesh",
           zoom: 13,
           mapTypeId : google.maps.MapTypeId.ROADMAP

@@ -152,6 +152,9 @@ ul.distance {
   padding: 0;
   margin-left: 50px;
 }
+.distance li:last-child {
+  margin-bottom: 10px;
+}
 .distance li {
   color: #B2853B;
   position: relative;
@@ -180,7 +183,4 @@ ul.distance {
 }
 .distance li:last-child:after {
   display: none;
-}
-.distance li:last-child {
-  margin-bottom: 10px;
 }

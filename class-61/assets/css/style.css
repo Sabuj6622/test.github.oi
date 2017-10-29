@@ -181,3 +181,6 @@ ul.distance {
 .distance li:last-child:after {
   display: none;
 }
+.distance li:last-child {
+  margin-bottom: 10px;
+}

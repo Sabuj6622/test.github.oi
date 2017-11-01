@@ -160,4 +160,5 @@ img.absolute-image {
 
 .is-sticky {
   z-index: 999;
+  position:absolute;
 }

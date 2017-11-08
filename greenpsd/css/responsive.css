@@ -3,7 +3,7 @@
  .main-menu ul li a {
   padding: 25px 8px;
 }
-.about-img::before {
+.about-img:before {
   height: 286px;
   right: 58px;
 }
@@ -31,7 +31,7 @@ header {
 .about-img {
   text-align: center;
 }
-.about-img::before {
+.about-img:before {
   right: 145px;
 }
 .service_title {
@@ -74,7 +74,7 @@ header {
 .about-img {
   text-align: center;
 }
-.about-img::before {
+.about-img:before {
   right: 145px;
 }
 .service_title {
@@ -91,8 +91,9 @@ header {
 .social_icon.floatright {
   float: right;
 }
-.about-img::before {
+.about-img:before {
   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 }
 .single_client_img {
   float: none;
@@ -105,7 +106,7 @@ header {
   margin-left: 0px;
   margin-top: 20px;
 }
-.client_about::before {
+.client_about:before {
   display: none;
 }
 .single_creative {

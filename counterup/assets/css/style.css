@@ -45,20 +45,19 @@ a:hover { text-decoration: none;color:#337ab7; }
 	margin:0;
 	text-align:right;
 }
-.mainmenu ul li {
+.mainmenu nav ul li {
     display: inline-block;
-    margin-left: 95px;
+    margin-left: 60px;
+    position: relative;
 }
-
-
-.mainmenu ul li a {
+.mainmenu nav ul li a {
     color:#626262;
     display: block;
     text-transform: uppercase;
-	font-size:14px;
-	padding:75px 0;
+	  font-size:14px;
+	 padding:75px 0;
 }
-
+.
 .single-blog-item {
     margin-bottom: 120px;
 }
@@ -94,9 +93,8 @@ a:hover { text-decoration: none;color:#337ab7; }
 .newsletter-area {
   background:#f0f0f0;
   overflow:hidden;
-  padding:70px;
+  padding:70px 0px;
   text-align:center;
-  margin-bottom:120px;
 }
 .newsletter-area h2 {
   color: #626262;
@@ -122,8 +120,24 @@ a:hover { text-decoration: none;color:#337ab7; }
   padding:10px;
 }
 
+.counterup-area {
+  text-align: center;
+  padding: 60px 0px;
+}
+.counter-title h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.single-counter-box span {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+}
+
 .blog-load-wrapper {
-  margin-top: -30px;
+  margin-top: 10px;
 }
 .load-btn {
     border:1px solid #ddd;

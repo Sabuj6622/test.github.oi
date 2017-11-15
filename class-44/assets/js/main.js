@@ -14,7 +14,9 @@
 
         
 
-        
+        $('.mailchimp-form').ajaxChimp({
+    url: "https://netlify.us17.list-manage.com/subscribe/post?u=215e33b4a736ce564a29fdf98&amp;id=a299fd754e"
+      });
         
        
 

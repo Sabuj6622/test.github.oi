@@ -1,0 +1,202 @@
+/**
+* Style.css
+*
+* Main style file for Event HTML Landing Page
+**/
+
+
+/**
+*********************************************
+* Table of Contents
+*********************************************
+* 
+* 1. Reset CSS
+* 2. Header CSS
+*   2.1 Header Top CSS
+*   2.2 Menu CSS
+* 3. Slider CSS
+*
+*
+*
+*
+* 11. Footer CSS
+*   11.1 Footer Top CSS
+*   11.2 Footer Bottom CSS
+*************** Individual Pages CSS ***************
+* 12. About Page
+*   12.1 About Page Hero Area
+*       12.1.1 About Page Hero Left 
+*       12.1.2 About Page Hero Right 
+*   12.2 About Page Carousel CSS
+**/
+
+
+/**
+*******************************************
+* 1. Reset CSS start
+*******************************************
+**/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+html,
+body {
+    height: 100%;
+}
+*{
+    outline: none!important
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline-offset: -2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+*******************************************
+* 1. Reset CSS End
+*******************************************
+**/
+
+.author-bg-1{background-image: url(../images/man-1.jpg);}
+
+.section-padding {
+  padding: 100px 0px;
+}
+.testimonial-wrapper {
+  position: relative;
+}
+.section-title {
+    position: absolute;
+    left: -8px;
+    top: 30px;
+    font-size: 70px;
+    z-index: 9;
+    text-transform: capitalize;
+}
+.section-title span {
+    color: #C7A05B;
+}
+
+.testimonial-info {
+  max-width: 48%;
+  padding-top: 183px;
+  padding-right: 90px;
+  padding-left: 24px;
+}
+
+.testimonial-info p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #979797;
+}
+.testimonial-author-bg {
+  width: 65%;
+  right: -12%;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.author-text {
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.testimonial-info {
+}
+.author-text i.fa {
+  color: #C7A05B;
+  font-size: 20px;
+}
+.author-text h3 {
+  margin: 0;
+}
+
+
+.testimonial-active.owl-carousel {
+  width: 105%;
+}
+.single-testimonial-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.testimonial-active .owl-nav div {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  line-height: 70px;
+  text-align: center;
+  font-size: 20px;
+}
+.testimonial-active .owl-nav div:first-child {
+  background: #C7A05B;
+  color: #fff;
+}
+.testimonial-active .owl-nav {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  padding-right: 10%;
+  width: 104%;
+}

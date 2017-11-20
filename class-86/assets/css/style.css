@@ -1,0 +1,209 @@
+/**
+* Style.css
+*
+* Main style file for Event HTML Landing Page
+**/
+
+
+/**
+*********************************************
+* Table of Contents
+*********************************************
+* 
+* 1. Reset CSS
+* 2. Header CSS
+*   2.1 Header Top CSS
+*   2.2 Menu CSS
+* 3. Slider CSS
+*
+*
+*
+*
+* 11. Footer CSS
+*   11.1 Footer Top CSS
+*   11.2 Footer Bottom CSS
+*************** Individual Pages CSS ***************
+* 12. About Page
+*   12.1 About Page Hero Area
+*       12.1.1 About Page Hero Left 
+*       12.1.2 About Page Hero Right 
+*   12.2 About Page Carousel CSS
+**/
+
+
+/**
+*******************************************
+* 1. Reset CSS start
+*******************************************
+**/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+html,
+body {
+    height: 100%;
+}
+*{
+    outline: none!important
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline-offset: -2px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+*******************************************
+* 1. Reset CSS End
+*******************************************
+**/
+
+.styled-bg-1{background-image: url(../images/image-1.jpg);}
+.styled-bg-2{background-image: url(../images/image-2.jpg);}
+
+.more-btn {
+  font-weight: 700;
+  margin-left: 24px;
+  color: #000;
+  position: relative;
+  padding-bottom: 8px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.more-btn i.fa {
+  margin-left: 5px;
+}
+.more-btn:after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: #caa04e;
+  content: "";
+}
+.styled-bg:before {
+  position: absolute;
+  right: 30%;
+  bottom: -65px;
+  background: #caa04e;
+  content: "";
+  height: 100px;
+  width: 2px;
+}
+
+.styled-bg-inner {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  width: 100%;
+}
+.styled-bg {
+  position: relative;
+  z-index: 2;
+  height: 450px;
+  margin-bottom: 100px;
+  margin-left: -73px;
+}
+.styled-bg:after {
+  position: absolute;
+  left: -30px;
+  bottom: -30px;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #ddd;
+  z-index: -2;
+}
+.special-section-title {
+  background: #fff;
+  padding: 35px 40px;
+  margin-left: -200px;
+  z-index: 9;
+  position: relative;
+}
+h2.special-section-title {
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-top: 35px;
+}
+.special-area p {
+  line-height: 1.9;
+  margin-left: 25px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.right-side .styled-bg{
+    margin-left: 0;
+    margin-right: -73px;
+}
+.right-side .styled-bg::after {
+  right: -30px;
+  left: auto;
+}
+.right-side .styled-bg::before {
+  left: 30%;
+  right: auto;
+}
+.right-side .special-section-title {
+  margin-left: 0;
+  margin-right: -200px;
+}

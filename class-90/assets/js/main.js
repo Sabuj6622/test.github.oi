@@ -4,14 +4,14 @@
 
     jQuery(document).ready(function($) {
 
-        $(".homepage-slides").owlCarousel({
+       /*  $(".homepage-slides").owlCarousel({
             items: 1,
             loop: true,
             autoplay: false,
             dots: true,
             nav: false,
             
-        });
+        }); */
 
     });
     

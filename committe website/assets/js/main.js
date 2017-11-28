@@ -4,24 +4,31 @@
 
     jQuery(document).ready(function($) {
 
-         $(".homepage-slides").owlCarousel({
-            items: 1,
-            loop: true,
-            autoplay: false,
-            dots: true,
-            nav: false,
-            
-        });
-
-         $(".logo-carousel-active").owlCarousel({
-            items: 5,
-            margin:30,
-            loop: true,
-            autoplay: false,
-            dots: false,
-            nav: false,
-            
-        }); 
+        //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
 
     });
     

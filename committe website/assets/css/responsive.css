@@ -29,6 +29,12 @@
 .section-padding h2::after {
 	left: 28%;
 }
+.footer_area {
+  font-size: 11px;
+}
+.logo img {
+	width: 70px;
+}
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 

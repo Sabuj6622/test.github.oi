@@ -9,17 +9,20 @@
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- .logo {
+	.header-area {
 	text-align: center;
+}
+.logo img {
+	width: 70px;
+}
+ .logo {
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
 .section-padding {
 	padding: 20px 30px;
 }
-.mainmenu ul li {
-	padding-right: 60px;
-}
+
 .section-padding h2 {
 	font-size: 25px;
 }
@@ -28,6 +31,9 @@
 }
 .section-padding h2::after {
 	left: 28%;
+}
+.footer-area {
+	font-size: 11px;
 }
 }
 /* Wide Mobile Layout: 480px. */

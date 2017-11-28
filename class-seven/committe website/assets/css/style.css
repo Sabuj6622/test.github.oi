@@ -77,17 +77,18 @@ input:-webkit-autofill:focus {
 .logo img {
   width: 100px;
 }
+.mainmenu {
+  margin-top: 38px;
+  text-align: right;
+}
 .mainmenu ul {
   list-style: none;
   margin: 0;
-  padding: 9;
+  padding: 0;
 }
 .mainmenu ul li {
   display: inline-block;
   padding-right: 50px;
-}
-.mainmenu {
-  margin-top: 38px;
 }
 .mainmenu ul li a {
   display: block;
@@ -100,12 +101,16 @@ input:-webkit-autofill:focus {
 .team-bg-1{background-image:url(../images/tushar.jpg);}
 .team-bg-2{background-image:url(../images/Billa.jpg);}
 .team-bg-3{background-image:url(../images/nahid.jpg);}
-.team-bg-4{background-image:url(../images/hasan.jpg);}
+.team-bg-4{background-image:url(../images/bappy.jpg);}
 .team-bg-5{background-image:url(../images/mishu.jpg);}
 .team-bg-6{background-image:url(../images/salman.jpg);}
 .team-bg-7{background-image:url(../images/Noman.jpg);}
 .team-bg-8{background-image:url(../images/arafat.jpg);}
 .team-bg-9{background-image:url(../images/nayem.jpg);}
+.team-bg-10{background-image:url(../images/Kibria.jpg);}
+.team-bg-11{background-image:url(../images/murshed.jpg);}
+.team-bg-12{background-image:url(../images/sabuj.jpg);}
+.team-bg-13{background-image:url(../images/rony.jpg);}
 
 .single-team-item {
   margin: 20px 0;
@@ -189,4 +194,21 @@ input:-webkit-autofill:focus {
   transform: rotate(44deg);
 }
 
+.footer-area {
+  padding: 20px 0px;
+  box-shadow: 0 0 20px #ddd;
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+}
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    text-indent: -9999px;
+    background-color: #000;
+}
 
